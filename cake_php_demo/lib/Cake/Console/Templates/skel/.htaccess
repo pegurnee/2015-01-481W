@@ -1,4 +1,6 @@
 <IfModule mod_rewrite.c>
+    RewriteBase /~eddie/cake_demo
+
     RewriteEngine on
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    (.*) webroot/$1    [L]

@@ -8,3 +8,13 @@ Stack Trace:
 #0 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/index1.php(41): require('/Users/eddie/Do...')
 #2 {main}
+2015-03-24 14:00:53 Error: Fatal Error (4): parse error in [/Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/app/Model/Post.php, line 2]
+2015-03-24 14:00:53 Error: [FatalErrorException] parse error
+Request URL: /~eddie/cake_demo/posts/index
+Stack Trace:
+#0 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'parse error', '/Users/eddie/Do...', 2)
+#1 [internal function]: ErrorHandler::handleError(4, 'parse error', '/Users/eddie/Do...', 2, Array)
+#2 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'parse error', '/Users/eddie/Do...', 2, Array)
+#3 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

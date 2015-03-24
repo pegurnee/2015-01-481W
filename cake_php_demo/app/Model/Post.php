@@ -1,4 +1,4 @@
 <?php
-￼￼￼class Post extends AppModel {
+class Post extends AppModel {
 
 }
