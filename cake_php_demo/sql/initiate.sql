@@ -1,0 +1,13 @@
+CREATE TABLE IF NOT EXISTS posts
+(
+   id         INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+   title      VARCHAR(50),
+   body       TEXT,
+   created    DATETIME DEFAULT NULL,
+   modified   DATETIME DEFAULT NULL
+);
+
+INSERT INTO posts(title, body, created)
+        VALUES ('The title', 'This is the post body.', NOW()),
+               ('A title once again', 'And the post body follows.', NOW()),
+               ('Title strikes back', 'This is really exciting! Not.', NOW());

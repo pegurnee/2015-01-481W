@@ -1,0 +1,10 @@
+2015-03-24 12:26:50 Error: [MissingControllerException] Controller class Index1.phpController could not be found.
+Exception Attributes: array (
+  'class' => 'Index1.phpController',
+  'plugin' => NULL,
+)
+Request URL: /~eddie/cake_demo/index1.php
+Stack Trace:
+#0 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /Users/eddie/Documents/git_repos/senior_capstone/cake_php_demo/index1.php(41): require('/Users/eddie/Do...')
+#2 {main}
