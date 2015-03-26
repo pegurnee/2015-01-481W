@@ -73,7 +73,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 	  'port' => '',
-		'login' => 'cakeBlog',
+		'login' => 'cake_demo_user',
 		'password' => 'c4k3-rU13Z',
 		'database' => 'cake_blog',
 		'schema' => '',
