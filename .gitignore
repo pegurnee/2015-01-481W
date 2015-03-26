@@ -41,12 +41,12 @@ Temporary Items
 
 /vendor/*
 /config/app.php
-/tmp/*
+*/tmp/*
 /logs/*
 
 # CakePHP 2
 
-/app/tmp/*
+*/app/tmp/*
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
